@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Where I Left?!</title>
+</head>
+<body>
+    <div class="header">
+        <h3>Reading Progress</h3>
+    </div>
+
+    <div class="progress-info" id="currentProgress">
+        <div id="progressText">Loading...</div>
+    </div>
+
+    <button class="button" id="saveProgress">Save Reading Progress</button>
+    <button class="button restore-btn" id="restoreProgress">Restore Progress</button>
+
+    <hr style="margin: 20px 0;">
+
+    <h4>Saved Bookmarks</h4>
+    <div id="bookmarksList"></div>
+
+    <button class="button delete-btn" id="clearAll">Clear All Bookmarks</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>

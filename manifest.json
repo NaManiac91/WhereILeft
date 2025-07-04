@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Reading Progress Saver",
+  "version": "1.0",
+  "description": "Save and restore your reading progress on any webpage",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Reading Progress Saver"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "96": "icon96.png",
+    "48": "icon48.png",
+    "144": "icon144.png"
+  }
+}

@@ -1,0 +1,67 @@
+body {
+    width: 300px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px 0;
+    width: 100%;
+}
+.button:hover {
+    background-color: #45a049;
+}
+.restore-btn {
+    background-color: #2196F3;
+}
+.restore-btn:hover {
+    background-color: #1976D2;
+}
+.delete-btn {
+    background-color: #f44336;
+}
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
+.progress-info {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.bookmark-item {
+    background-color: #f9f9f9;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.bookmark-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.bookmark-url {
+    color: #666;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.bookmark-progress {
+    color: #888;
+    font-size: 10px;
+}
+.no-bookmarks {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
