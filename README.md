@@ -1,11 +1,11 @@
 WhereILeft ?!
 It's a Chromium extension that saves your reading progress! Here's what the extension includes:
   - Save Reading Progress: Click the extension icon and save your current scroll position
-  - Restore Progress: Return to your saved reading position with smooth scrolling
-  - Bookmark Management: View all saved bookmarks with progress percentages
+  - Restore Progress: Return to your saved reading position
+  - Bookmarks Management: View all saved bookmarks with progress percentages
 
 How to Install:
-1. Save all four files in a folder on your computer
+1. Save all files in a folder on your computer
 2. Open Chrome and go to chrome://extensions/
 3. Enable "Developer mode" in the top right
 4. Click "Load unpacked" and select your folder
